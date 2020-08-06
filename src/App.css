@@ -1,0 +1,18 @@
+
+.center {        /*to keep things in center*/
+  display: flex;    
+  justify-content: center;
+}
+
+.particles {
+  /*Everything is full screen, background is fixed*/
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1; /*after fixing position, at what layer we want.*/
+}
+
+
+
